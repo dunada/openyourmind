@@ -7,7 +7,7 @@ gem 'rails', '3.2.11'
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
 gem 'mongo_mapper'#, '0.12.0'
-gem "mongo_session_store-rails3"
+#gem "mongo_session_store-rails3"
 gem 'bson_ext'#, '1.8.0'
 
 #gem 'mysql2'
@@ -27,7 +27,7 @@ group :assets do
   gem 'uglifier', '>= 1.0.3'
 end
 
-group :local do
+group :development do
   gem 'pry'
 end
 
