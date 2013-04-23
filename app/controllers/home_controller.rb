@@ -5,10 +5,10 @@ class HomeController < ApplicationController
   # Tela inicial do site
   # 
   # 
-  def index
-    Teste.new({:name=>"teste"}).save
-    render json: {:teste=>Teste.find_one.name}
-  end
+  # def index
+  #   Teste.new({:name=>"teste"}).save
+  #   render json: {:teste=>Teste.find_one.name}
+  # end
 
 
 
