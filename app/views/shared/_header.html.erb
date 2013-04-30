@@ -2,18 +2,10 @@
 <div id="mobile-nav-holder">
 	<div class="wrapper">
 		<ul id="mobile-nav">
-			<li><a href="index.html">home</a></li>
-			<li><a href="blog.html">blog</a></li>
-			<li class="current-menu-item"><a href="page.html">about</a>
-				<ul>
-					<li><a href="page-full.html">Fullwidth Page</a></li>
-					<li><a href="page-features.html">Features</a></li>
-					<li><a href="page-typography.html">Typography</a></li>
-					<li><a href="page-icons.html">Icons</a></li>
-				</ul>
-			</li>
-			<li><a href="portfolio.html">portfolio</a></li>
-			<li><a href="contact.html">contact</a></li>
+			<li><a href="<%=root_path%>">home</a></li>
+			<li><a href="<%=blog_index_path%>">blog</a></li>
+			<li><a href="<%=portfolio_index_path%>">portfolio</a></li>
+			<li><a href="<%=contact_index_path%>">contact</a></li>
 		</ul>
 		<div id="nav-open"><a href="#">Menu</a></div>
 	</div>
@@ -29,18 +21,10 @@
 		
 		<nav>
 			<ul id="nav" class="sf-menu">
-				<li><a href="index.html">home<span class="subheader">welcome</span></a></li>
-				<li><a href="blog.html">blog<span class="subheader">read me</span></a></li>
-				<li class="current-menu-item"><a href="page.html">about<span class="subheader">great features</span></a>
-					<ul>
-						<li><a href="page-full.html">Fullwidth Page</a></li>
-						<li><a href="page-features.html">Features</a></li>
-						<li><a href="page-typography.html">Typography</a></li>
-						<li><a href="page-icons.html">Icons</a></li>
-					</ul>
-				</li>
-				<li><a href="portfolio.html">portfolio<span class="subheader">recent work</span></a></li>
-				<li><a href="contact.html">contact<span class="subheader">get in touch</span></a></li>
+				<li><a href="<%=root_path%>">home<span class="subheader">welcome</span></a></li>
+				<li><a href="<%=blog_index_path%>">blog<span class="subheader">read me</span></a></li>
+				<li><a href="<%=portfolio_index_path%>">portfolio<span class="subheader">recent work</span></a></li>
+				<li><a href="<%=contact_index_path%>">contact<span class="subheader">get in touch</span></a></li>
 			</ul>
 		</nav>
 		
