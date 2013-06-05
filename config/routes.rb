@@ -56,10 +56,10 @@ RailsApp::Application.routes.draw do
   # Note: This route will make all actions in every controller accessible via GET requests.
   # match ':controller(/:action(/:id))(.:format)'
   match "blog" => "blog#index", :as => :blog_index
-  match "post/:post_path" => "blog#post", :as => :blog_post
+  match "post/:path" => "blog#post", :as => :blog_post
   match "contact" => "contact#index", :as => :contact_index
   match "portfolio" => "portfolio#index", :as => :portfolio_index
-  match "portfolio/:project_path" => "portfolio#project", :as => :portfolio_project
+  match "portfolio/:path" => "portfolio#project", :as => :portfolio_project
 
 
   root :to => 'home#index'

@@ -1,14 +1,15 @@
 # encoding: utf-8
 class BlogController < ApplicationController
  
-	# 
-  # Tela inicial do site
-  # 
-  # 
-  # def index
-  #   Teste.new({:name=>"teste"}).save
-  #   render json: {:teste=>Teste.find_one.name}
-  # end
+	
+  
+  def index
+    @posts=Post.published.sort(:published_at.desc)
+  end
+
+  def post
+    @post=Post.find_by_path(params[:path])
+  end
 
 
 

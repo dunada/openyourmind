@@ -1,7 +1,7 @@
 source 'http://rubygems.org'
 source 'http://gemcutter.org'
 
-gem 'rails', '3.2.11'
+gem 'rails', '3.2.13'
 
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
@@ -9,6 +9,7 @@ gem 'rails', '3.2.11'
 gem 'mongo_mapper'#, '0.12.0'
 #gem "mongo_session_store-rails3"
 gem 'bson_ext'#, '1.8.0'
+gem 'joint'
 
 #gem 'mysql2'
 #gem 'sqlite3'
@@ -32,8 +33,9 @@ group :development do
 end
 
 gem 'backbone-rails', '0.9.2'
-
-gem 'jquery-rails'
+gem 'ejs', '1.1.1'
+gem 'jquery-rails', '2.1.2'
+gem 'bootstrap-sass', '~> 2.3.1.0'
 
 # To use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
